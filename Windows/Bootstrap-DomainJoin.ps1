@@ -15,7 +15,7 @@ param(
     [string]$ComputerName = $env:COMPUTERNAME,
 
     [Parameter()]
-    [string]$ScriptUrl = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/Join-EntraDomain.ps1",
+    [string]$ScriptUrl = "https://raw.githubusercontent.com/GlavaNet/SysAdminScripts/refs/heads/main/Windows/Bootstrap-DomainJoin.ps1",
 
     [Parameter()]
     [string]$ExpectedMsiHash,  # SHA256 hash for verification
